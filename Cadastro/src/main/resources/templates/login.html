@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+        height: 100vh;
+        background: linear-gradient(135deg, #0f0f0f, #1a001f);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login-container {
+        background: rgba(20, 20, 20, 0.95);
+        padding: 40px;
+        width: 350px;
+        border-radius: 15px;
+        box-shadow: 0 0 25px rgba(170, 0, 255, 0.4);
+        text-align: center;
+    }
+
+    .login-container h2 {
+        color: #b300ff;
+        margin-bottom: 25px;
+        font-weight: 600;
+    }
+
+    .input-group {
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    .input-group label {
+        color: #ccc;
+        font-size: 14px;
+    }
+
+    .input-group input {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: none;
+        border-radius: 8px;
+        background: #2a2a2a;
+        color: white;
+        outline: none;
+        transition: 0.3s;
+    }
+
+    .input-group input:focus {
+        box-shadow: 0 0 8px #b300ff;
+    }
+
+    .login-btn {
+        width: 100%;
+        padding: 12px;
+        border: none;
+        border-radius: 8px;
+        background: #b300ff;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.3s;
+        margin-top: 10px;
+    }
+
+    .login-btn:hover {
+        background: #8a00cc;
+        transform: scale(1.03);
+    }
+
+    .extra-links {
+        margin-top: 15px;
+        font-size: 13px;
+    }
+
+    .extra-links a {
+        color: #b300ff;
+        text-decoration: none;
+    }
+
+    .extra-links a:hover {
+        text-decoration: underline;
+    }
+</style>
+
+</head>
+<body>
+
+<div class="login-container">
+    <h2>Bem-vindo</h2>
+
+    <form>
+        <div class="input-group">
+            <label>Email</label>
+            <input type="email" placeholder="Digite seu email" required>
+        </div>
+
+        <div class="input-group">
+            <label>Senha</label>
+            <input type="password" placeholder="Digite sua senha" required>
+        </div>
+
+        <button class="login-btn">Entrar</button>
+    </form>
+
+    <div class="extra-links">
+        <p><a href="#">Esqueceu a senha?</a></p>
+    </div>
+</div>
+
+</body>
+</html>

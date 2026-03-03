@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-CadastroApplication<Cadastro>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.BrennoDS.Cadastro.CadastroApplication",
+            "projectName": "Cadastro",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
